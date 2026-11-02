@@ -19,4 +19,4 @@ python -m http.server 8765 --bind 127.0.0.1
 
 网页只介绍项目，不连接 AIGC 生产环境或消耗生成额度。Fork 仓库的上游归属保持明确。
 
-在线地址：[xiazsa Lab](https://xiazongchi.fun/)。HTTPS 已部署，www 的 HTTPS 请求会跳转到主域名。2026-11-02 检查：HTTPS 页面可访问；普通 HTTP 被阿里云备案检查拦截，备案接入或同步状态仍需核实。
+临时展示地址：[GitHub Pages](https://xiazsa.github.io/xiazsa-lab/)。正式域名 `xiazongchi.fun` 的阿里云部署已完成，备案已提交、审核中；最新外网检查 HTTP 被备案拦截，HTTPS 连接重置。审核通过后再验收正式域名和证书续期。
