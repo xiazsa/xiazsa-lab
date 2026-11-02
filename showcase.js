@@ -1,0 +1,2 @@
+document.querySelectorAll('[data-view]').forEach(button=>button.addEventListener('click',()=>{document.querySelectorAll('[data-view]').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));document.querySelector('#view-real').hidden=button.dataset.view!=='real';document.querySelector('#view-design').hidden=button.dataset.view!=='design'}));
+document.querySelector('#demo-submit')?.addEventListener('click',()=>{document.querySelector('#demo-status').textContent='示例任务已进入队列。真实平台在此追踪排队、执行与结果状态；本演示未发送任何生成请求。'});
