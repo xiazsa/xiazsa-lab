@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://xiazongchi.fun/sitemap.xml

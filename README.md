@@ -15,6 +15,8 @@
 python -m http.server 8765 --bind 127.0.0.1
 ```
 
-生产部署只需上传两个 HTML、`style.css` 和 `assets/`。历史设计稿和内部审阅记录不属于正式站点产物。此仓库不包含服务器地址、SSH 密钥或生产环境配置。
+生产部署只需上传两个 HTML、`style.css`、`assets/`、`robots.txt` 和 `sitemap.xml`。历史设计稿和内部审阅记录不属于正式站点产物。此仓库不包含服务器地址、SSH 密钥或生产环境配置。
 
 网页只介绍项目，不连接 AIGC 生产环境或消耗生成额度。Fork 仓库的上游归属保持明确。
+
+正式域名：xiazongchi.fun。已配置 DNS；等待新域名解析同步和 ICP 备案完成后开放公网。HTTPS 尚未签发，域名暂不作为可用演示入口。
