@@ -1,0 +1,10 @@
+/design-demos/
+/design-spec.md
+/design-review.md
+/directions.md
+/direction-approved.md
+/brand-spec.md
+/product-facts.md
+.env*
+*.pem
+*.key
