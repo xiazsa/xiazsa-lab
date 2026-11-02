@@ -19,4 +19,4 @@ python -m http.server 8765 --bind 127.0.0.1
 
 网页只介绍项目，不连接 AIGC 生产环境或消耗生成额度。Fork 仓库的上游归属保持明确。
 
-正式域名：xiazongchi.fun。已配置 DNS；等待新域名解析同步和 ICP 备案完成后开放公网。HTTPS 尚未签发，域名暂不作为可用演示入口。
+在线地址：[xiazsa Lab](https://xiazongchi.fun/)。HTTPS 已部署，www 的 HTTPS 请求会跳转到主域名。2026-11-02 检查：HTTPS 页面可访问；普通 HTTP 被阿里云备案检查拦截，备案接入或同步状态仍需核实。
